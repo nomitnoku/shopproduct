@@ -1,0 +1,34 @@
+@import './variable.scss';
+@import '~bootstrap/scss/bootstrap';
+
+html {
+  font-size: 1rem!important;
+}
+
+.fs-1, h1 {
+  font-size: 1.75rem!important;
+}
+
+.fs-2, h2 {
+  font-size: 1.5rem!important;
+}
+
+.fs-3, h3 {
+  font-size: 1.25rem!important;
+}
+
+.fs-4, h4 {
+  font-size: 1rem!important;
+}
+
+.fs-5, h5 {
+  font-size: 0.875rem!important;
+}
+
+.fs-6, h6 {
+  font-size: 0.75rem!important;
+}
+
+.fs-7 {
+  font-size: 0.625rem!important;
+}

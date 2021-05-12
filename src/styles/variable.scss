@@ -1,0 +1,52 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+$grid-columns: 24;
+$grid-gutter-width: 30px;
+
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 5),
+);
+
+// default color override
+$primary:       #FD003A;
+$primary-dark:  #A30000;
+$primary-light: #E72064;
+$link:          #0000EE;
+$secondary:     #999999;
+$medium:        #666666;
+$success:       #b8238e;
+$warning:       #F9ED32;
+$disabled:      #a3a3a3;
+$light:         #F4F4F4;
+$dark:          #333333;
+$green:         #25d366;
+$white:         #FFFFFF;
+$black:         #000000;
+$border:        #f0f0f5;
+
+
+$theme-colors: (
+  "primary":        $primary,
+  "primary-dark":   $primary-dark,
+  "primary-light":  $primary-light,
+  "link":           $link,
+  "secondary":      $secondary,
+  "medium":         $medium,
+  "success":        $success,
+  "info":           $info,
+  "warning":        $warning,
+  "disabled":       $disabled,
+  "light":          $light,
+  "dark":           $dark,
+  "green":          $green,
+  "white":          $white,
+  "black":          $black,
+  "border":         $border,
+);
