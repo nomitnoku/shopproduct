@@ -1,0 +1,11 @@
+.online-product .product-image-div {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.online-product .product-image-div img {
+    max-height: 100%;
+    max-width: 100%;
+}

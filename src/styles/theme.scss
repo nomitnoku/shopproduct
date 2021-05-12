@@ -1,5 +1,10 @@
 @import './variable.scss';
 @import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/spinners';
+@import './common.scss';
+@import './Product.scss';
+@import './CartCounter.scss';
+@import './CartItem.scss';
 
 html {
   font-size: 1rem!important;
