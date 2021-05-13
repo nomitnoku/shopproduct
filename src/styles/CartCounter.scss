@@ -1,0 +1,17 @@
+.cart-counter {
+    min-width: 72px !important;
+}
+
+.cart-counter .process-add-to-cart {
+    width: 50%;
+    height: 2px;
+    background: $primary;
+    position: relative;
+    animation: processing-add-to-cart 0.5s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes processing-add-to-cart {
+    from {left: -25%;}
+    to {left: 125%;}
+}
